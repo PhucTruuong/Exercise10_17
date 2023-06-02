@@ -39,14 +39,14 @@
 body{
   margin: 0 !important;
 }
-.menu{
+/* .menu{
   display: flex;
   background-color: #282c34;
   list-style: none;
   padding-bottom: 5px;
   padding-top: 2px;
   margin-top: 0px;
-}
+} */
 li{
   padding-top: 3px;
   padding-bottom: 3px;
@@ -57,11 +57,11 @@ a{
   padding-top: 5px;
   padding-bottom: 8px;
   margin: 0px 7px 7px;
-  color: white;
   text-decoration: none;
 }
 .active{
   background-color: #c2b506;
+  color: white;
 }
 .card img{
   height: 150px;
@@ -172,5 +172,23 @@ button{
 .popup .content {
   max-height: 30%;
   overflow: auto;
+}
+.navigator-container{
+  display: flex;
+}
+.navigator-container ul{
+  display: flex;
+  margin-right: 50%;
+}
+.navigator-container ul li{
+  list-style: none;
+  padding: 0rem;
+  margin: 0;
+}
+.navigator-container ul li a{
+  padding: 1rem 1rem;
+}
+.navigator-container div{
+  margin-top: 0.97rem;
 }
 
