@@ -41,7 +41,7 @@ body{
 }
 .menu{
   display: flex;
-  background-color: #503d81;
+  background-color: rgba(1,87,155,255);
   list-style: none;
   padding-bottom: 5px;
   padding-top: 2px;
@@ -66,28 +66,13 @@ a{
   background-color: #dddddd;
   color: black;
 }
-.card img{
-  height: 150px;
-  width: 100%;
-  margin-bottom: 0px;
-}
-.card{
-  width: 338px;
-}
-.card p a{
-  margin-left: 0;
-  padding-left: 0;
-}
+
 .container{
   display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 300px 290px;
-  margin: 2.4rem 10% 20px 12.5%;
 }
 
-h3{
-  font-size: 13px;
-}
+
 .title{
   font-size: 13px;
 }
@@ -107,8 +92,8 @@ button{
   padding: 10px 121px;
   margin-right: 4rem;
 }
-.card p{
-  margin-top: 7px;
+.card{
+  margin-top: 7rem;
 }
 .footer{
   background-color: #c2b506;
@@ -248,3 +233,86 @@ button{
 .product-price{
   color: #f4c15c;
 }
+.hide-on-med-and-down{
+  width: 700px;
+}
+.link-boxes{
+  margin-left: 98%;
+  width: 700px;
+}
+.nav-wrapper{
+  text-align: left;
+  margin-left: 2rem;
+}
+.link-boxes li:first-child a{
+  background-color: rgba(1,87,155,255);
+  color: white;
+  height: 62px;
+}
+.link-boxes li:nth-child(2) a{
+  height: 62px;
+  background-color: rgba(1,87,155,255);
+  color: white;
+}
+.link-boxes li:nth-child(3) a{
+  height: 62px;
+  background-color: rgba(1,87,155,255);
+  color: white;
+}
+.link-boxes li:nth-child(4) a{
+  height: 62px;
+  background-color: rgba(1,87,155,255);
+  color: white;
+}
+.col .card-content div h3{
+  font-size: 20px;
+  margin-right: 80%;
+  width: 10rem;
+  padding-right: 2rem;
+}
+
+.col .card-content div img{
+  width: 100%;
+  margin-right: 10px;
+}
+.col:first-child .card-content div h3{
+  font-size: 20px;
+  margin-right: 80%;
+  width: 16rem; 
+  height: 2rem;
+  padding-right: 5rem;
+}
+.col:nth-child(3) .card-content div h3{
+  font-size: 20px;
+  width: 5rem; 
+  height: 2rem;
+  padding-left: 2px;
+}
+.col:nth-child(4) .card-content div h3{
+  font-size: 20px;
+  width: 5rem; 
+  height: 2rem;
+  padding-left: 2px;
+}
+.col:nth-child(5) .card-content div h3{
+  font-size: 20px;
+  width: 9rem; 
+  height: 2rem;
+  padding-left: 0px;
+}
+.col:nth-child(6) .card-content div h3{
+  font-size: 20px;
+  width: 11rem; 
+  height: 2rem;
+  padding-left: 0px;
+}
+.card-content div a{
+  background-color: white;
+  width: 40px;
+  padding-right: 80%;
+  margin-left: 0;
+  padding-left: 5px;
+} 
+
+
+

@@ -2,6 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
+import M from 'materialize-css'
+import 'materialize-css/dist/css/materialize.min.css'
+
 import reportWebVitals from "./reportWebVitals";
 // import { ThemeProvider } from "./components/ThemeContext";
 import { BrowserRouter } from "react-router-dom";

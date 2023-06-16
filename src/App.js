@@ -12,10 +12,9 @@ function App() {
       <Navigation/>
       {/* <Main/> */}
       <Routes>
-          <Route path='/' element={<Players/>}> 
-      </Route>
-        <Route path='/detail/:id' element={<Detail/>}></Route>
-        {/* <Route path='/contact' element={<Contact/>}></Route> */}
+          <Route path='/' element={<Players/>}></Route>
+          <Route path='/detail/:id' element={<Detail/>}></Route>
+          {/* <Route path='/contact' element={<Contact/>}></Route> */}
       </Routes>
 
       <Footer/>
