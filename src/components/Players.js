@@ -30,7 +30,7 @@ function Players() {
       {data.map((player) => (
         <Col key={player.id}>
           <Card closeIcon={<Icon></Icon>}>
-            <img src={player.img}   alt="" />
+            <img src={player.img} alt="" />
             <h3>{player.name}</h3>
             {/* <p>{player.club}</p> */}
             <Link onClick={() => {setPlayer(player);}} 

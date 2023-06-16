@@ -62,22 +62,22 @@ export default function Navigation() {
       <ul className="link-boxes">
         <li>
           <Link to="/">
-            <Icon left></Icon>Home
+            <Icon left>home</Icon>Home
           </Link>
         </li>
         <li to="/about">
           <Link to="/about">
-            <Icon left></Icon>About
+            <Icon left>info</Icon>About
           </Link>
         </li>
         <li to="/news">
           <Link to="/news">
-            <Icon left></Icon>News
+            <Icon left>dvr</Icon>News
           </Link>
         </li>
         <li href="/contact">
           <Link to="/contact">
-            <Icon left></Icon>Contact
+            <Icon left>contacts</Icon>Contact
           </Link>
         </li>
       </ul>
