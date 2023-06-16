@@ -17,8 +17,7 @@ function Players() {
             <p className="btn">
               <button onClick={() => {setPlayer(player);}}>
                 <Link to={`detail/${player.id}`}>
-                  Detail  
-                  
+                  Detail 
                 </Link>
               </button>
             </p>
